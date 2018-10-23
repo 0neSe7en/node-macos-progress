@@ -1,0 +1,11 @@
+{
+  "name": "node-macos-progress",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "OneSe7en <siyuan.se7en@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "node-addon-api": "^1.5.0"
+  }
+}

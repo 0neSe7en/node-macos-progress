@@ -13,7 +13,6 @@
 #import <Foundation/Foundation.h>
 #endif
 #include <string>
-#include <iostream>
 void* createProgress(std::string path, int64_t total);
 void updateProgress(void* progress, int64_t current);
 #endif /* Progress_h */

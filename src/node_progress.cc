@@ -1,6 +1,4 @@
 #include <napi.h>
-#include <string>
-#include <iostream>
 #include "FileProgress.h"
 
 Napi::Object InitAll(Napi::Env env, Napi::Object exports) {

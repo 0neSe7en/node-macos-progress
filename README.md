@@ -20,3 +20,10 @@ const flag = setInterval(() => {
 }, 1000);
 
 ```
+
+## TODO
+
+- [] Callback when user cancel a progress.
+- [] Support `progress.cancel` or `progress.unpublish`
+- [] Can get current complete unit count from progress.
+- [] Persist progress when application is quit. 

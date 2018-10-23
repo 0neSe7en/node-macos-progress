@@ -1,5 +1,5 @@
-node-macos-progress
-======
+# node-macos-progress
+
 > A node package for update file progress on macOS
 
 [![NPM](https://nodei.co/npm/macos-progress.png)](https://www.npmjs.com/package/macos-progress)

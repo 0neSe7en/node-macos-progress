@@ -8,6 +8,15 @@
     "type": "git",
     "url": "https://github.com/0neSe7en/node-macos-progress"
   },
+  "keywords": [
+    "macos",
+    "file",
+    "progress",
+    "download",
+    "electron"
+  ],
+  "homepage": "https://github.com/0neSe7en/node-macos-progress",
+  "gypfile": true,
   "license": "MIT",
   "dependencies": {
     "bindings": "^1.3.0",

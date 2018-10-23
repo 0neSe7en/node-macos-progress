@@ -1,11 +1,17 @@
 {
   "name": "macos-progress",
   "version": "0.1.1",
+  "description": "A node package for update file progress on macOS",
   "main": "index.js",
-  "author": "OneSe7en <siyuan.se7en@gmail.com>",
+  "author": "0neSe7en <siyuan.se7en@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0neSe7en/node-macos-progress"
+  },
   "license": "MIT",
   "dependencies": {
     "bindings": "^1.3.0",
     "node-addon-api": "^1.5.0"
-  }
+  },
+  "typings": "./index.d.ts"
 }

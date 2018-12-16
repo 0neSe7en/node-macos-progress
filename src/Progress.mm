@@ -9,7 +9,7 @@ void* createProgress(std::string path, int64_t total) {
     progress.pausable = NO;
     progress.cancellable = NO;
     progress.completedUnitCount = 0;
-    NSString *p = [NSString stringWithCString:path.c_str() encoding:[NSString defaultCStringEncoding]];
+    NSString *p = [NSString stringWithUTF8String:path.c_str()];
     NSURL* dest = [NSURL fileURLWithPath:p];
     [progress setUserInfoObject:dest forKey:NSProgressFileURLKey];
     [progress setUserInfoObject:NSProgressFileOperationKindDownloading forKey:NSProgressFileOperationKindKey];
